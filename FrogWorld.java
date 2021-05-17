@@ -29,6 +29,8 @@ public class FrogWorld extends World
         for(int i = 0; i < 14; i++)
         {
             addObject( new Ground(), 10 + 60*i, 570);
+            addObject( new Ground(), 10 + 60*i, 270);
+            addObject( new Ground(), 10 + 60*i, 30);
         }
         
         //Next safe ground row
